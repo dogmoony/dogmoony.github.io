@@ -11,7 +11,7 @@ body {
     align-items: center;
     height: 100%;
     width: 100%;
-    background-image: url("./data/images/background");
+    background-image: url("./data/images/background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
