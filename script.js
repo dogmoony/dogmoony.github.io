@@ -21,4 +21,5 @@ function switchPage(pageId, event) {
 
   // Add active class to the clicked button
   event.target.classList.add("active");
+  menuPanel.classList.toggle("active");
 }
