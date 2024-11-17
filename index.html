@@ -7,10 +7,31 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Ukrainian Christmas Market</h1>
-    <p>A festive event in the heart of Kiev, Ukraine</p>
-  </header>
+
+  <button id="menu-toggle" class="menu-toggle">☰ Menu</button>
+    
+  <!-- Navigation Menu -->
+  <nav id="menu-panel" class="menu-panel">
+    <button onclick="switchPage('about', event)" class="menu-button">About</button>
+    <button onclick="switchPage('schedule', event)" class="menu-button">Schedule</button>
+    <button onclick="switchPage('contact', event)" class="menu-button">Contact Us</button>
+  </nav>
+
+  <!-- Pages -->
+  <div id="about" class="page active">
+    <h1>About Page</h1>
+    <p>Learn more about us on this page.</p>
+  </div>
+
+  <div id="schedule" class="page">
+    <h1>Schedule Page</h1>
+    <p>Check our upcoming events on this page.</p>
+  </div>
+
+  <div id="contact" class="page">
+    <h1>Contact Page</h1>
+    <p>Reach out to us via this page.</p>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
